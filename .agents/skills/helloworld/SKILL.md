@@ -17,7 +17,7 @@ Use this skill when the user sends 1) "helloworld" and only "helloworld", or 2) 
 Return in the format `text (language name)`. The `text` part is the text of "helloworld" in another language.
 
 1. If audio isn't requested, then it's up to you to pick the targeting language so that each time the user gets a random response.
-2. Otherwise when audio is requested, return `text (language name)` first, but the language is limited, see [references/LANGS.md] for allowed languages. And then use `text` and `lang_id` as parameters to generate an audio file, see [references/TTS.md] for details.
+2. Otherwise when audio is requested, return `text (language name)` first. The language is limited; see [references/LANGS.md] for allowed languages. Then use `text` and `lang_id` as parameters to generate an audio file; see [references/TTS.md] for details.
 
 ## Output Example
 
