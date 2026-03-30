@@ -162,3 +162,17 @@ Note:
 2. introduce the concept of references and scripts;
 3. used on demand, so save tokens (and introduce the concept of context);
 4. powerful but should be careful for external scripts which may lead to data leaks;
+
+
+
+## Further Reading
+
+- [Agent Skills open standard](https://agentskills.io/home), especially the [specification](https://agentskills.io/specification)
+- [Skills from Anthropic](https://github.com/anthropics/skills)
+- [Skills from OpenAI](https://github.com/openai/skills)
+
+Note:
+1. Skills can cover brand guidelines, canvas design, doc coauthoring, figma desgin generation, frontend design, slides, and spreadsheets.
+2. There are many open-source skills.
+3. Since the agents can access your computer as you do, it's better to audit skills written by others first before using.
+4. When creating your own skill, clear instructions can reduce misunderstanding and lead to better results.
