@@ -98,9 +98,17 @@ Note: a text file in a very simple, easy to understand syntax; once a skill is c
 ## Tools
 
 - [VS Code](https://code.visualstudio.com/)
-- (Optional) A GitHub account
+  - Sign in to use Copilot
+- (Optional) [Google Antigravity](https://antigravity.google/)
+  - Sign in to use Gemini
+- (Optional) Codex (ChatGPT Plus) / Claude Code (Claude Pro)
 
-Note: for people with a technical background, other agents (claude code / codex / gemini) or editors can also be used.
+Note:
+- when vscode is first installed, it asks to sign in with GitHub / Google / Apple account before talking to AI.
+  - first try GitHub account
+  - then google / apple (perhaps a github account will be created, pay attention)
+- Antigravity requires Google account
+- for people with a technical background, other cli agents (claude code / codex / gemini) or editors can also be used.
 
 
 
